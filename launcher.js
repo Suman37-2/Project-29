@@ -3,7 +3,8 @@ class Polygon{
 
         var op={
             isStatic:false,
-            friction:10
+            friction:10,
+            density:8
         }
         this.body=Bodies.rectangle(x,y,width,height,op);
         this.width=width;
